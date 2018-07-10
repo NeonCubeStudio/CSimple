@@ -1,8 +1,6 @@
 ### Function pointer
-Application.csimple
+Test.csimple
 ```
-include System;		/* print function */
-
 public class Test
 {
 	public int32 Combine(int32 a, int32 b)
@@ -10,6 +8,11 @@ public class Test
 		return a + b;
 	}
 }
+```
+
+Application.csimple
+```
+include System;		/* print function */
 
 public static int32 Main(void)
 {
