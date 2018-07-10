@@ -15,9 +15,7 @@ Application.csimple
 ```
 public static int32 Main(void)
 {
-	function<void>(void) FunctionPointer = null;
-
-	FunctionPointer = Test.OutputText;
+	function<void>(void) FunctionPointer = Test.OutputText;
 
 	if (FunctionPointer)
 	{

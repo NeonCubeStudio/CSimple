@@ -24,43 +24,33 @@ Good
 ```
 void FooFunction(int32 a, int32 b) { }
 
-function<void>(int32, int32) Foo = null;
-
-Foo = FooFunction;
+function<void>(int32, int32) Foo = FooFunction;
 ```
 
 Bad (return type)
 ```
 int32 FooFunction(int32 a, int32 b) { return 0 }
 
-function<void>(int32, int32) Foo = null;
-
-Foo = FooFunction;
+function<void>(int32, int32) Foo = FooFunction;
 ```
 
 Bad (not matching parameters)
 ```
 void FooFunction(int32 a, float64 b) { }
 
-function<void>(int32, int32) Foo = null;
-
-Foo = FooFunction;
+function<void>(int32, int32) Foo = FooFunction;
 ```
 
 Bad (function not implemented)
 ```
 abstract void FooFunction(int32 a, int32 b);
 
-function<void>(int32, int32) Foo = null;
-
-Foo = FooFunction;
+function<void>(int32, int32) Foo = FooFunction;
 ```
 
 Bad (function pointer has pointer notion)
 ```
 void FooFunction(int32 a, int32 b) { }
 
-function<void>(int32, int32)* Foo = null;
-
-Foo = FooFunction;
+function<void>(int32, int32)* Foo = FooFunction;
 ```
