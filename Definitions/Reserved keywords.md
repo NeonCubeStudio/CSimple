@@ -3,7 +3,7 @@
 - ```bit```
 - ```break```
 - ```case```
-- ```cont```
+- ```const```
 - ```default```
 - ```delete```
 - ```else```
