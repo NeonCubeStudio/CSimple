@@ -11,11 +11,11 @@
 ```int32```		| ```int```
 ```int64```		| ```long```
 
-** Reference types** | **Function**
+** Reference types** | **C# type**
 -------------------- | ------------
-```class```			 | custom data type
-```function```		 | function pointer
-```void```			 | no type
+```class```			 | ```class```
+```function```		 | ```action```
+```void```			 | ```void```
 
 #### Notes
 - ```bit```			The bit is only 1 bit in size, and can only be 1 or 0
