@@ -11,7 +11,7 @@
 ```int32```		| ```int```
 ```int64```		| ```long```
 
-** Reference types** | **C# type**
+**Reference types** | **C# type**
 -------------------- | ------------
 ```class```			 | ```class```
 ```function```		 | ```action```
