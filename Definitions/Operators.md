@@ -8,7 +8,7 @@ Boolean logic				| ```!```, ```&&```, <code>\|\|</code>
 Equality testing			| ```==```, ```!=```
 Calling function			| ```()```
 Increment and decrement		| ```++```, ```--```
-Member selection			| ```.```
+Member selection			| ```.```, ```->```
 Object size					| ```sizeof```
 Object type					| ```typeof```
 Order relations				| ```<```, ```>```, ```<=```, ```>=```
