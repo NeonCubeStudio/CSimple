@@ -1,5 +1,5 @@
 ### Function
-`function<'_'return type'_'>'('_'parameters'_')'
+`function<`_`return type`_`>`(`_`parameters`_`)`
 The ```function``` type is a function pointer
 - _return type_ is the return type of the function pointer
 - _parameters_ are the accepted parameters of the function pointer
