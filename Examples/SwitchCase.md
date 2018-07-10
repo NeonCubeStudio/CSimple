@@ -16,7 +16,7 @@ public static int32 Main(void)
 	
 	switch (cookie)
 	{
-		case (CookieTypes.ZaansHuisje || CookieTypes.ZaansHuisje)
+		case (CookieTypes.ZaansHuisje || CookieTypes.Deugnietje)
 		{
 			Print("It's a special cookie!");
 			
