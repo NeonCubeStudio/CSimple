@@ -19,8 +19,8 @@
 
 #### Notes
 - ```bit```			The bit is only 1 bit in size, and can only be 1 or 0
-- ```float(x)```	The float(x) is a floating point value, and it's size is x bytes
-- ```int(x)```		The int(x) can only be a decimal number, and it's size is x bytes
+- ```float(x)```	The float(x) is a floating point value, and it's size is x bits
+- ```int(x)```		The int(x) can only be a decimal number, and it's size is x bits
 
 - value types cannot be ```null```
 - ```float(x)``` types can be casted to a different ```float(x)``` type at the loss of precision
