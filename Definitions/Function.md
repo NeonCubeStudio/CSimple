@@ -5,14 +5,17 @@ The ```function``` type is a function pointer
 - _parameters_ are the accepted parameters of the function pointer
 
 Example
-```function<void>(int32, int32) Foo```
+```
+function<void>(int32, int32) Foo
+```
 The function pointer "Foo" returns nothing, and needs two int32 parameter
-Only functions that are implemented, have the same return types and have the same parameters can be assigned to the function pointer
-
 
 To call the function pointer, just call the function as you normally would
-Example
-```Foo(3, 6);```
+```
+Foo(3, 6);
+```
+
+Only functions that are implemented, have the same return types and have the same parameters can be assigned to the function pointer
 
 Good
 ```
