@@ -19,16 +19,22 @@ public static int32 Main(void)
 		case (CookieTypes.ZaansHuisje || CookieTypes.ZaansHuisje)
 		{
 			Print("It's a special cookie!");
+			
+			break;
 		}
 
 		case (CookieTypes.Biscuit)
 		{
 			Print("It's a biscuit!");
+
+			break;
 		}
 
 		default
 		{
 			Print("It's a mysterious cookie!");
+
+			break;
 		}
 	}
 
