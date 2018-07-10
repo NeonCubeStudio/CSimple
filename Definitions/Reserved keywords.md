@@ -28,7 +28,6 @@
 - ```sizeof```
 - ```static```
 - ```switch```
-- ```T```
 - ```typeof```
 - ```unsigned```
 - ```virtual```
