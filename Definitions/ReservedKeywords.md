@@ -1,7 +1,7 @@
 ### Reserved keywords
 - ```abstract```
 - ```base```
-- ```bit```
+- ```bool```
 - ```break```
 - ```case```
 - ```const```

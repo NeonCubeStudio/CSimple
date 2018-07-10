@@ -1,7 +1,7 @@
 ### Types
 **Value types** | **C# type**
 --------------- | ------------
-```bit```		| ```bool```
+```bool```		| ```bool```
 ```enum```		| ```enum```
 ```float32```	| ```float```
 ```float64```	| ```double```
@@ -18,9 +18,10 @@
 ```void```			 | ```void```
 
 #### Notes
-- ```bit```			The bit is only 1 bit in size, and can only be 1 or 0
-- ```float(x)```	The float(x) is a floating point value, and it's size is x bits
-- ```int(x)```		The int(x) can only be a decimal number, and it's size is x bits
+- ```bool```		The ```bool``` is only 1 byte in size, and can only be 0 or 1
+- ```enum```		The enum contains named constants, and each named constant is the same size as int64
+- ```float(x)```	The ```float(x)``` is a floating point value, and it's size is x bits
+- ```int(x)```		The ```int(x)``` can only be a decimal number, and it's size is x bits
 
 - value types cannot be ```null```
 - ```float(x)``` types can be casted to a different ```float(x)``` type at the loss of precision
