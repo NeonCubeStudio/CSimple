@@ -4,7 +4,7 @@
 Arithmetic					| ```+```, ```-```, ```/```, ```%```
 Assignment					| ```=```
 Augmented assignment		| ```+=```, ```-=```, ```*=```, ```%=```
-Boolean logic				| ```!```, ```&&```, ```||```
+Boolean logic				| ```!```, ```&&```, <code>\|\|</code>
 Equality testing			| ```==```, ```!=```
 Calling function			| ```()```
 Increment and decrement		| ```++```, ```--```
