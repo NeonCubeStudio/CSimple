@@ -2,9 +2,9 @@
 -------------------- | ------------
 ```class```			 | custom data type
 ```interface```		 | inplementation specification
-```void```			 | no type
 ```T```				 | generic type
+```void```			 | no type
 
 #### Notes
-- ```void``` functions return nothing
 - ```T``` cannot be ```void```
+- ```void``` functions do not have to return a valu
