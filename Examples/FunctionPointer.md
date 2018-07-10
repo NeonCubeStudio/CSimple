@@ -1,33 +1,27 @@
 ### Function pointer
 Test.csimple
 ```
+include System;		/* print function */
+
 public class Test
 {
-	public int32 Combine(int32 a, int32 b)
+	public void OutputText(void)
 	{
-		return a + b;
+		Print("Hello world!");
 	}
 }
 ```
-
 Application.csimple
 ```
-include System;		/* print function */
-
 public static int32 Main(void)
 {
-	function<int32>(int32, int32) FunctionPointer = null;
-	int32 a = 0;
-	int32 b = 0;
-	int32 result = 0;
+	function<void>(void) FunctionPointer = null;
 
-	FunctionPointer = Test.Combine;
+	FunctionPointer = Test.OutputText;
 
 	if (FunctionPointer)
 	{
-		result = FunctionPointer(a, b);
-		
-		Print({0}, result);
+		FunctionPointer();
 	}
 
 	return 0;
