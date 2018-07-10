@@ -1,2 +1,2 @@
-# SOOPL
-Simple Object-Oriented Programming Language
+# CSimple
+Simple Object-Oriented C Programming Language
