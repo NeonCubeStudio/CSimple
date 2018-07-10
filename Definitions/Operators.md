@@ -15,4 +15,4 @@ Order relations				| ```<```, ```>```, ```<=```, ```>=```
 Reference and dereference	| ```&```, ```*```, ```[]```
 Sequencing					| ```,```
 Subexpression grouping		| ```()```
-Type conversion				| ```(<i>typename</i>)```
+Type conversion				| ```(_typename_)```
