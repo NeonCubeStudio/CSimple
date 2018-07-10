@@ -18,6 +18,8 @@ Foo(3, 6);
 
 Only functions that are implemented, have the same return types and have the same parameters can be assigned to the function pointer
 
+The function pointer cannot have the pointer notion
+
 Good
 ```
 void FooFunction(int32 a, int32 b) { }
@@ -50,6 +52,15 @@ Bad (abstract modifier)
 abstract void FooFunction(int32 a, int32 b);
 
 function<void>(int32, int32) Foo = null;
+
+Foo = FooFunction;
+```
+
+Bad (function pointer has pointer notion)
+```
+void FooFunction(int32 a, int32 b) { }
+
+function<void>(int32, int32)* Foo = null;
 
 Foo = FooFunction;
 ```
