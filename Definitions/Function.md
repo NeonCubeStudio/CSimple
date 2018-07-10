@@ -47,7 +47,7 @@ function<void>(int32, int32) Foo = null;
 Foo = FooFunction;
 ```
 
-Bad (abstract modifier)
+Bad (function not implemented)
 ```
 abstract void FooFunction(int32 a, int32 b);
 
