@@ -1,5 +1,6 @@
 ### Reserved keywords
 - ```abstract```
+- ```base```
 - ```bit```
 - ```break```
 - ```case```
