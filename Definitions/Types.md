@@ -26,4 +26,4 @@
 - ```float(x)``` types can be casted to a different ```float(x)``` type at the loss of precision
 - ```int(x)``` types can be casted to a different ```int(x)``` type at loss of precision
 - only ```int(x)``` types can be ```unsigned```
-- ```void``` functions do not have to return a valu
+- ```void``` functions do not have to return a value
