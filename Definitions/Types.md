@@ -5,7 +5,6 @@
 ```enum```		| ```enum```
 ```float32```	| ```float```
 ```float64```	| ```double```
-```float128```	| ```decimal```
 ```int8```		| ```sbyte```
 ```int16```		| ```short```
 ```int32```		| ```int```

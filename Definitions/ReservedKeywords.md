@@ -11,7 +11,6 @@
 - ```enum```
 - ```float32```
 - ```float64```
-- ```float128```
 - ```function```
 - ```if```
 - ```int8```
