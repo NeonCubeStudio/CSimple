@@ -12,7 +12,7 @@
 ```enum```		| ```enum```
 
 #### Notes
-- ```bit```			The bit is only 1 bit, and can only be 1 or 0
+- ```bit```			The bit is only 1 bit in size, and can only be 1 or 0
 - ```int(x)```		The int(x) can only be a decimal number, and it's size is x bytes
 - ```float(x)```	The float(x) is a floating point value, and it's size is x bytes
 
