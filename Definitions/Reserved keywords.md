@@ -11,7 +11,7 @@
 - ```float32```
 - ```float64```
 - ```float128```
-- '''function'''
+- ```function```
 - ```if```
 - ```int8```
 - ```int16```

@@ -14,7 +14,7 @@
 ** Reference types** | **Function**
 -------------------- | ------------
 ```class```			 | custom data type
-'''function'''		 | function pointer
+```function```		 | function pointer
 ```void```			 | no type
 
 #### Notes
