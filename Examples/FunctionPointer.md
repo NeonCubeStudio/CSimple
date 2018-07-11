@@ -7,7 +7,7 @@ public class Test
 {
 	public void OutputText(void)
 	{
-		Print("Hello world!");
+		Print("Hello cookies!");
 	}
 }
 ```
