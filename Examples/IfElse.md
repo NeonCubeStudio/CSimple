@@ -13,11 +13,11 @@ public static int32 Main(void)
 	}
 	else if (cookies == 1)
 	{
-		Print("We got 1 cookie!");
+		Print("We have 1 cookie!");
 	}
 	else
 	{
-		Print("We got 2 or more cookies!");
+		Print("We have 2 or more cookies!");
 	}
 
 	return 0;
